@@ -6,30 +6,30 @@ Every generated board is **100% logically solvable** from the very first tap—n
 
 ---
 
-## ✨ Features
+## Features
 
-- **🧠 100% Deterministic (No-Guess) Logic**: Built-in multi-tier deductive logic solver ensures that every generated puzzle can be deduced purely through logic without random guessing.
-- **⚡ Ultra-Fast Board Generation**: Instant opening generation with organic opening chunk capping (never carves out huge empty chunks).
-- **📐 Standard Dimensions**: 18 columns × 32 rows with 150 mines.
-- **🎨 Nordic AMOLED Minimalist Aesthetic**:
+- **100% Deterministic (No-Guess) Logic**: Built-in multi-tier deductive logic solver ensures that every generated puzzle can be deduced purely through logic without random guessing.
+- **Ultra-Fast Board Generation**: Instant opening generation with organic opening chunk capping (never carves out huge empty chunks).
+- **Standard Dimensions**: 18 columns × 32 rows with 150 mines.
+- **Nordic AMOLED Minimalist Aesthetic**:
   - Pure `#000000` AMOLED black background for maximum battery efficiency and infinite contrast.
   - Pure flat Google Material 3 (M3) architecture with zero elevation lift, no harsh borders, and smooth capsule pill geometry.
   - 7 curated earthy color themes: **Olive Gold**, **Terracotta Red**, **Slate Blue**, **Dusky Purple**, **Burnt Orange**, **Forest Green**, and **Parchment White**.
   - Harmonized typography: UI fonts and counters dynamically adopt a very light, vibrant tint of the selected theme color.
-- **🖐️ Fluid Multi-Touch Canvas**:
+- **Fluid Multi-Touch Canvas**:
   - Simultaneous 2-finger pinch zoom and fluid panning.
   - Smooth 1-finger momentum drag with calibrated inertia fling scrolling.
   - Clean seamless keycap rendering with rounded exterior corners and subpixel edge overlap.
-- **⚙️ Customizable UX**:
+- **Customizable UX**:
   - Adjustable long-press delay slider (100 ms – 600 ms).
   - Quick chord actions on revealed numbers.
   - Completely silent and distraction-free (zero haptics).
-- **🏆 Offline Leaderboard**: Tracks your 5 fastest completed games with date stamps.
-- **💾 Automatic State Preservation**: Saves game progress on pause or app exit and resumes seamlessly.
+- **Offline Leaderboard**: Tracks your 5 fastest completed games with date stamps.
+- **Automatic State Preservation**: Saves game progress on pause or app exit and resumes seamlessly.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 - **Language**: 100% Pure Kotlin (zero native C/Rust dependencies)
 - **UI Toolkit**: Jetpack Compose + Google Material 3 (M3)
@@ -39,7 +39,7 @@ Every generated board is **100% logically solvable** from the very first tap—n
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -74,7 +74,7 @@ app/build/outputs/apk/debug/app-debug.apk
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Minesweeper/
@@ -98,6 +98,6 @@ Minesweeper/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE) — anyone is free to download, use, fork, and modify the code.
