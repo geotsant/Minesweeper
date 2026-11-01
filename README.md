@@ -51,8 +51,8 @@ Every generated board is **100% logically solvable** from the very first tap—n
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/minesweeper-android.git
-cd minesweeper-android
+git clone https://github.com/YOUR_USERNAME/Minesweeper.git
+cd Minesweeper
 
 # Build the debug APK
 ./gradlew assembleDebug
