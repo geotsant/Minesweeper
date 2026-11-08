@@ -166,7 +166,7 @@ class MinesweeperEngine {
             }
         }
 
-        if (flagCount == num && unrevealedNeighbors.isNotEmpty()) {
+        if (flagCount >= num && unrevealedNeighbors.isNotEmpty()) {
             var changed = false
             var hitMine = false
 
