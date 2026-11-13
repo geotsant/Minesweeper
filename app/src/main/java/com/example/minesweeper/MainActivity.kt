@@ -31,6 +31,7 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.FilledTonalIconButton
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButtonDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Slider
@@ -54,6 +55,7 @@ import androidx.compose.ui.draw.clipToBounds
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -526,10 +528,10 @@ fun SettingsScreen(
                 ),
                 modifier = Modifier.size(40.dp)
             ) {
-                Text(
-                    text = "←",
-                    fontSize = 20.sp,
-                    fontWeight = FontWeight.Bold
+                Icon(
+                    painter = painterResource(id = R.drawable.ic_arrow_back),
+                    contentDescription = "Back",
+                    modifier = Modifier.size(24.dp)
                 )
             }
             Spacer(modifier = Modifier.width(16.dp))
@@ -831,10 +833,10 @@ fun GameScreen(
                     ),
                     modifier = Modifier.size(40.dp)
                 ) {
-                    Text(
-                        text = "←",
-                        fontSize = 18.sp,
-                        fontWeight = FontWeight.Bold
+                    Icon(
+                        painter = painterResource(id = R.drawable.ic_arrow_back),
+                        contentDescription = "Back to menu",
+                        modifier = Modifier.size(24.dp)
                     )
                 }
 
